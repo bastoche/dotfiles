@@ -1,0 +1,16 @@
+# navigation
+alias ..="cd .."
+alias cd..="cd .."
+alias ....="cd ../.."
+
+# ls magic
+alias ls="ls -lFGh"
+alias la="ls -laFGh"
+alias lsd="ls -lFGh | grep --color=never '^d'"
+
+# file size
+alias fs="stat -f '%z bytes'"
+alias df="df -h"
+
+# update the world
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade --all; brew cleanup; npm install npm -g; npm update -g'
