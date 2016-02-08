@@ -3,6 +3,11 @@ function mkd() {
 	mkdir -p "$@" && cd "$_";
 }
 
+# List files after changing directory
+cd() {
+	builtin cd "$@" && ls;
+}
+
 # `a` with no arguments opens the current directory in Atom Editor, otherwise
 # opens the given location
 function a() {

@@ -4,9 +4,13 @@ alias cd..="cd .."
 alias ....="cd ../.."
 
 # ls magic
-alias ls="ls -lFGh"
-alias la="ls -laFGh"
-alias lsd="ls -lFGh | grep --color=never '^d'"
+alias ls="ls -FGhl"
+alias la="ls -aFGhl"
+alias lsd="ls -FGhl | grep --color=never '^d'"
+
+# file manipulation
+alias cp="cp -iv"
+alias mv="mv -iv"
 
 # file size
 alias fs="stat -f '%z bytes'"
@@ -14,3 +18,6 @@ alias df="df -h"
 
 # update the world
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade --all; brew cleanup'
+
+# other
+alias path='echo -e ${PATH//:/\\n}'
