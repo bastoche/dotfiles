@@ -9,6 +9,7 @@ brew 'mysql'
 brew 'python'
 brew 'sbt'
 brew 'scala'
+brew 'tig'
 brew 'wget'
 
 cask 'atom'
