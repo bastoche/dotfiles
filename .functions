@@ -27,3 +27,8 @@ function o() {
 		open "$@";
 	fi;
 }
+
+# gpip temporarily turn off the virtual env restriction
+gpip(){
+   PIP_REQUIRE_VIRTUALENV="" pip "$@"
+}

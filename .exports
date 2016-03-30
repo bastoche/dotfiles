@@ -12,3 +12,6 @@ export LC_ALL='en_US.UTF-8';
 # LS_COLORS
 export CLICOLOR=1
 export LSCOLORS=gxfxcxdxbxegedabagacad
+
+# pip
+export PIP_REQUIRE_VIRTUALENV=true
