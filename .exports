@@ -1,4 +1,4 @@
-# Increase Bash history size. Allow 32³ entries; the default is 500.
+ource /usr/local/bin/virtualenvwrapper.sh Increase Bash history size. Allow 32³ entries; the default is 500.
 export HISTSIZE='32768';
 export HISTFILESIZE="${HISTSIZE}";
 
@@ -15,3 +15,6 @@ export LSCOLORS=gxfxcxdxbxegedabagacad
 
 # pip
 export PIP_REQUIRE_VIRTUALENV=true
+
+# virtualenv
+export WORKON_HOME=$HOME/.virtualenvs
