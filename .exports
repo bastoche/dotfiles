@@ -1,4 +1,4 @@
-ource /usr/local/bin/virtualenvwrapper.sh Increase Bash history size. Allow 32³ entries; the default is 500.
+# Increase Bash history size. Allow 32³ entries; the default is 500.
 export HISTSIZE='32768';
 export HISTFILESIZE="${HISTSIZE}";
 
