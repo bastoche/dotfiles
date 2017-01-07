@@ -2,9 +2,7 @@ cask_args appdir: '/Applications'
 
 tap 'caskroom/versions'
 
-brew 'ant'
 brew 'git'
-brew 'gradle'
 brew 'python'
 brew 'tig'
 brew 'wget'
