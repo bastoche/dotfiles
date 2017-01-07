@@ -1,3 +1,2 @@
-gpip install --upgrade pip
-gpip install virtualenv
-gpip install virtualenvwrapper
+gpip3 install --upgrade pip
+gpip3 install virtualenvwrapper
